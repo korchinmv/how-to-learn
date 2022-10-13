@@ -9,7 +9,6 @@
 /* Общие блоки */
 
 .logo {
-  position: absolute;
   height: 32px;
   width: 228px;
 }
@@ -116,6 +115,7 @@
 }
 
 .logo_place_header {
+  position: absolute;
   top: 30px;
 }
 
@@ -257,7 +257,67 @@
   position: absolute;
   right: -210px;
   top: 0;
+  width: 877px;
+  height:  877px;
   z-index: -1;
 }
 
 /* Блок footer */
+
+.footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer__author {
+  line-height: 25px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 711px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer__column:not(:last-child) {
+  margin-right: 135px;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer__column-links {
+  margin-bottom: 16px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+}
+
+.footer__column-link {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
