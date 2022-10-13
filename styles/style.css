@@ -29,13 +29,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-title {
-  margin-bottom: 20px;
-}
-
-.section-title {
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
+  margin-bottom: 20px;
 }
 
 .section-subtitle {
@@ -141,11 +138,6 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
 }
 
-.header__square-pic {
-  height: 608px;
-  width: 765px;
-}
-
 .header__main-illustration {
   background-color: #2f80ed;
   position: absolute;
@@ -162,6 +154,8 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
   right: 0;
   bottom: 0;
+  height: 608px;
+  width: 765px;
   z-index: 1;
 }
 
