@@ -132,11 +132,6 @@
 }
 
 .header__square-pic {
-  height: 608px;
-  width: 765px;
-}
-
-.header__square-pic {
   background-color: #2f80ed;
   object-fit: contain;
   position: absolute;
@@ -154,6 +149,8 @@
   right: 0;
   bottom: 0;
   z-index: 1;
+  height: 608px;
+  width: 765px;
 }
 
 /* Блок description */
