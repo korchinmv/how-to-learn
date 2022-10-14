@@ -132,6 +132,11 @@
 }
 
 .header__square-pic {
+  height: 608px;
+  width: 765px;
+}
+
+.header__main-illustration {
   background-color: #2f80ed;
   object-fit: contain;
   position: absolute;
@@ -148,8 +153,6 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 608px;
-  width: 765px;
   z-index: 1;
 }
 
