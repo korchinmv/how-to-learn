@@ -1,3 +1,9 @@
 # how-to-learn
-How to learn - 
-First project in Yandex Practicum
+
+## Alt-H1
+
+##Первый проект на Яндекс Практикуме. Проект выполнен за 3 недели обучения на курсе от ЯП.
+
+**Технилогии используемые в проекте:** html, css, css animation, flex, grid, BEM, GIT
+
+**Технологии которые будут использоваться в этом проекте:** JavaScript
