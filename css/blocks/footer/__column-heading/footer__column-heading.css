@@ -1,0 +1,6 @@
+.footer__column-heading {
+  display: inline-block;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}

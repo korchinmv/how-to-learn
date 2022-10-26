@@ -1,0 +1,9 @@
+.table__text {
+  display: inline-block;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.table__text:not(:last-child) {
+  margin-bottom: 20px;
+}
