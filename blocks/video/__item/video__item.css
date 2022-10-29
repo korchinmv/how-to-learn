@@ -1,0 +1,9 @@
+.video__item {
+  height: 316px;
+  max-width: 515px;
+  width: 100%;
+}
+
+.video__item:not(:last-child) {
+  margin-right: 20px;
+}
